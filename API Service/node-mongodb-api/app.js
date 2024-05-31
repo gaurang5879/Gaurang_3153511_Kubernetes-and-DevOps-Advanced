@@ -32,7 +32,7 @@ const User = mongoose.model('User', userSchema);
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my NAGP assessment API');
+    res.send('Welcome to my NAGP assessment API version 2');
 });
 
 app.get('/api/users', async (req, res) => {

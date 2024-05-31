@@ -25,3 +25,10 @@ spec:
             name: node-api-config
          - secretRef:
             name: node-api-secret
+         resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"   

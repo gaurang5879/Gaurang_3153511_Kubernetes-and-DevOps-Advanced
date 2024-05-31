@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-api-lb-service
+  namespace: gaurang-nagp
+spec:
+  type: LoadBalancer
+  selector:
+    app: node-api
+  ports:
+    - targetPort: 3000
+      port: 80

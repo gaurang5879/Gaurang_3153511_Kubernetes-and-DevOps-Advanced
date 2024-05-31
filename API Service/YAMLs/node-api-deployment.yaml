@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-api-rolling-update-deployment
+  namespace: gaurang-nagp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: node-api
+  template:
+    metadata:
+      name: node-api-pod
+      labels:
+        app: node-api
+    spec:
+      containers:
+       - name: node-api-container
+         image: gaurang5879/node-mongodb-api:v1
+         imagePullPolicy: Always
+         ports:
+         - containerPort: 3000
+         envFrom:
+         - configMapRef:
+            name: node-api-config
+         - secretRef:
+            name: node-api-secret

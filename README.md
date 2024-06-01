@@ -1,15 +1,15 @@
 # Gaurang_3153511_Kubernetes-and-DevOps-Advanced
 Assignment for NAGP
 
-**Link for the code repository**: https://github.com/gaurang5879/Gaurang_3153511_Kubernetes-and-DevOps-Advanced.git
+**Code repository**: https://github.com/gaurang5879/Gaurang_3153511_Kubernetes-and-DevOps-Advanced.git
 
-**Docker Hub URL for Docker images**: https://hub.docker.com/repository/docker/gaurang5879/node-mongodb-api/general
+**Docker Hub URL**: https://hub.docker.com/repository/docker/gaurang5879/node-mongodb-api/general
 
-**URL for Service API tier to view the records from backend tier**: http://35.200.164.13/
+**URL for Service API**: http://35.200.164.13/
 
-**Link for screen recording video**: 
+**Screen recording video**: https://nagarro-my.sharepoint.com/:v:/r/personal/gaurang_singhal_nagarro_com/Documents/Desktop/NAGP/AssignmentVideo.mp4?csf=1&web=1&e=aRBNKe
 
-## API Endpoints
+## API Endpoints for viewing records from backend tier
 - GET 'http://35.200.164.13/api/users': Fetch all users.
 - POST 'http://35.200.164.13/api/users': Create a new user.
 

@@ -7,7 +7,7 @@ Assignment for NAGP
 
 **URL for Service API**: http://35.200.164.13/
 
-**Screen recording video**: https://nagarro-my.sharepoint.com/:v:/r/personal/gaurang_singhal_nagarro_com/Documents/Desktop/NAGP/AssignmentVideo.mp4?csf=1&web=1&e=aRBNKe
+**Screen recording video**: https://nagarro-my.sharepoint.com/:v:/r/personal/gaurang_singhal_nagarro_com/Documents/Desktop/NAGP/Recording%202024-06-01%20161548.mp4?csf=1&web=1&e=7pAa0A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## API Endpoints for viewing records from backend tier
 - GET 'http://35.200.164.13/api/users': Fetch all users.
